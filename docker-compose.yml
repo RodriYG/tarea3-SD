@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  tarea3-sd:
+    image: 'suhothayan/hadoop-spark-pig-hive:2.9.2'
+    container_name: tarea3-sd
+    command: bash
+    ports:
+      - '50070:50070'
+      - '8088:8088'
+      - '8080:8080'
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./branch_traces/charlie_trace-1_17571657100049929577.branch_trace.1006544.csv:/datos/dataset.csv
+      - ./test-hive.sql:/scripts/analisis-hive.sql
+      - ./test-pig.pig:/scripts/analisis-pig.pig
