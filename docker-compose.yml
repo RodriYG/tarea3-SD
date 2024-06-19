@@ -13,5 +13,7 @@ services:
     tty: true
     volumes:
       - ./branch_traces/charlie_trace-1_17571657100049929577.branch_trace.1006544.csv:/datos/dataset.csv
-      - ./test-hive.sql:/scripts/analisis-hive.sql
-      - ./test-pig.pig:/scripts/analisis-pig.pig
+      - ./scripts-hive/analisis.sql:/scripts/hive/analisis.sql
+      - ./scripts-pig/analisis1.pig:/scripts/pig/analisis1.pig
+      - ./scripts-pig/analisis2.pig:/scripts/pig/analisis2.pig
+      - ./scripts-pig/analisis3.pig:/scripts/pig/analisis3.pig
