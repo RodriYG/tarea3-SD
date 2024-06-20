@@ -1,7 +1,7 @@
 # Hola
 
 ```sh
-docker-compose up -d
+docker-compose up
 ```
 ```sh
 docker exec -it tarea3-sd bash
