@@ -19,6 +19,8 @@ hdfs dfs -mkdir -p /user/hadoop/output
 Ejecutar script
 ```sh
 hive
+```
+```sh
 source /scripts/hive/analisis.sql;
 ```
 Ver tablas con los resulados (dentro de hive):
