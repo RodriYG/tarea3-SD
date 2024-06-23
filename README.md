@@ -23,7 +23,7 @@ hive
 ```sh
 source /scripts/hive/analisis.sql;
 ```
-Ver tablas con los resulados (dentro de hive):
+Ver tablas con los resultados (dentro de hive):
 ```sh
 select * from stats;
 ```
