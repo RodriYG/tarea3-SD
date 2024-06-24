@@ -1,4 +1,5 @@
 # Tarea 3 - Sistemas Distribuidos
+Link de video explicativo: [https://youtu.be/eoGhmVb4PdU](https://youtu.be/eoGhmVb4PdU)
 
 ```sh
 docker-compose up
